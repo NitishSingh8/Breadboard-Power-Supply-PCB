@@ -118,7 +118,7 @@ The regulated output is provided to breadboard rails for circuit prototyping.
 
   ---
   
-## ✅ Key Features
+##  Key Features
 - Compact and breadboard-friendly design
 - Clean and optimized PCB routing
 - Ground plane for improved stability
@@ -126,7 +126,7 @@ The regulated output is provided to breadboard rails for circuit prototyping.
 
 ---
 
-## 📈 Skills Demonstrated
+##  Skills Demonstrated
 - PCB Design
 - Schematic Capture
 - Component Placement
@@ -135,18 +135,18 @@ The regulated output is provided to breadboard rails for circuit prototyping.
 
 ---
 
-## 🚀 Future Improvements
+##  Future Improvements
 - Add adjustable voltage output
 - Include current limiting protection
 - Improve efficiency with switching regulators
 
 ---
 
-## 📬 Feedback
+##  Feedback
 Feel free to suggest improvements or provide feedback!
 
 ---
 
-## 🔗 Author
+## Author
 **Nitish Singh**  
 Electronics & Communication Engineer  
