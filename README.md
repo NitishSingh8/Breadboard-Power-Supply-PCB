@@ -6,6 +6,11 @@ This project focuses on designing a **Breadboard Power Supply Module PCB** that 
 The PCB is compact and designed to directly interface with a standard breadboard, making it suitable for testing and developing electronic circuits.
 
 ---
+## 💡 Motivation
+Breadboards require a stable and portable power source. 
+This project was designed to create a compact and efficient 
+solution for powering circuits during prototyping.
+---
 
 ##  Objectives
 - Design a reliable and compact power supply for breadboard use
