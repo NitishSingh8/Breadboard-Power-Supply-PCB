@@ -36,6 +36,22 @@ solution for powering circuits during prototyping.
 
 ---
 
+##  Electrical Design Details
+- Input Voltage: (e.g., 7V–12V DC)
+- Output Voltage: (e.g., 5V regulated)
+- Voltage Regulator Used: (e.g., 7805 / AMS1117)
+- Filtering Capacitors: (value)
+- Protection: (if any diode/fuse used)
+
+  ---
+  
+  ##  Working Principle
+The input DC voltage is regulated using a linear voltage regulator. 
+Capacitors are used for filtering and стабlizing the output voltage. 
+The regulated output is provided to breadboard rails for circuit prototyping.
+
+---
+
 ##  Design Workflow
 1. Schematic Design
 2. Footprint Assignment
@@ -74,8 +90,34 @@ solution for powering circuits during prototyping.
 <img width="1029" height="762" alt="Screenshot 2026-03-08 140150" src="https://github.com/user-attachments/assets/b15d3b60-3a90-4b23-b760-27124ce84a82" />
 
 
+### 🔹 Top Layer (F.Cu)
+<img width="211" height="363" alt="Screenshot 2026-03-08 141444" src="https://github.com/user-attachments/assets/09fa3059-9b39-4a8c-9f65-6b321001db52" />
+
+
+### 🔹 Bottom Layer (B.Cu)
+<img width="243" height="359" alt="Screenshot 2026-03-08 141359" src="https://github.com/user-attachments/assets/291adc6c-42a8-4118-bd5b-dce76c89cd62" />
+
 ---
 
+##  Bill of Materials (BOM)
+
+| Component | Value | Quantity |
+|----------|------|----------|
+| Voltage Regulator | 7805 | 1 |
+| Capacitor | 10uF | 2 |
+| Capacitor | 0.1uF | 2 |
+| LED | - | 1 |
+| Resistor | 330Ω | 1 |
+
+---
+
+## 🔍 Applications
+- Powering Arduino / microcontroller circuits
+- Breadboard prototyping
+- Testing analog and digital circuits
+
+  ---
+  
 ## ✅ Key Features
 - Compact and breadboard-friendly design
 - Clean and optimized PCB routing
