@@ -37,13 +37,21 @@ solution for powering circuits during prototyping.
 ---
 
 ##  Electrical Design Details
-- Input Voltage: (e.g., 7V–12V DC)
-- Output Voltage: (e.g., 5V regulated)
-- Voltage Regulator Used: (e.g., 7805 / AMS1117)
-- Filtering Capacitors: (value)
-- Protection: (if any diode/fuse used)
+- Input Voltage: 7V–12V DC
+- Output Voltage: 5V regulated
+- Voltage Regulator Used:  7805 
+- Filtering Capacitors: 10uF , 0.1uF
+- Resistor: 330 ohm
 
   ---
+
+  ##  Design Considerations
+- Capacitors placed close to the regulator for voltage stability.
+- Short traces are used to reduce noise and voltage drop.
+- Ground plane implemented for better performance.
+- Components arranged for compact breadboard compatibility.
+
+    ---
   
   ##  Working Principle
 The input DC voltage is regulated using a linear voltage regulator. 
