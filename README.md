@@ -119,7 +119,7 @@ The regulated output is provided to breadboard rails for circuit prototyping.
 
 ---
 
-## 🔍 Applications
+## Applications
 - Powering Arduino / microcontroller circuits
 - Breadboard prototyping
 - Testing analog and digital circuits
